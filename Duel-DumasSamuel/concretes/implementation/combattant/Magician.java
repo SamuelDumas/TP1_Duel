@@ -14,7 +14,7 @@ public class Magician extends Fighter{
 		
 	}
 
-	private int max(int value1, int value2) {
+	private int max(int value1, int value2) { //MS Il existe un package Math dans Java qui fournit une méthode Max(a,b)
 		if(value1>value2) {
 			return value1;
 		}

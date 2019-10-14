@@ -12,7 +12,7 @@ public class Sword extends Capacity{
 	}
 	
 	public int getPower (Fighter fighter) {
-		return fighter.getStrength()*this.characteristic/100;
+		return fighter.getStrength()*this.characteristic/100;//MS On doit mettre les nombres dans des constantes.
 	}
 
 }
